@@ -21,14 +21,16 @@
 
 # Command Line Interface (CLI)
 
-#### Start Zookeeper and Kafka
+#### Start Zookeeper
 * zookeeper-server-start.bat config\zookeeper.properties*
+
+#### Start Kafka
 * kafka-server-start.bat config\server.properties*
 
 #### Create Topic
 * kafka-topics --zookeeper 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replication-factor 1*
 
-#### List out topics
+#### List Out Topics
 * kafka-topics --zookeeper localhost:2181 --list
 
 #### Topic Details
@@ -37,13 +39,18 @@
 #### Delete Topic
 * kafka-topics --zookeeper 127.0.0.1:2181 --topic first_topic --delete
 
-#### Producer
+#### Producers
 * kafka-console-producer --broker-list localhost:9092 --topic first_topic
 * kafka-console-producer --broker-list localhost:9092 --topic first_topic --producer-property acks=all
 
-#### Consumer
+#### Consumers
 * kafka-console-consumer --bootstrap-server localhost:9092 --topic first_topic
 * kafka-console-consumer --bootstrap-server localhost:9092 --topic first_topic --from-beginning
 
-#### Group
+#### Groups
 * kafka-console-consumer --bootstrap-server localhost:9092 --topic first_topic --group my-first-application
+
+
+# Brokers
+
+![GitHub Logo](/images/1.Brokers.png)
