@@ -51,6 +51,34 @@
 * kafka-console-consumer --bootstrap-server localhost:9092 --topic first_topic --group my-first-application
 
 
-# Brokers
+# Core Concepts of Kafka
 
 ![GitHub Logo](/images/1.Brokers.png)
+
+![GitHub Logo](/images/2.Brokers-Topics.png)
+
+![GitHub Logo](/images/3.Broker-Partitions-Replications.png)
+
+![GitHub Logo](/images/4.Topics-Partitions-Offsets.png)
+
+![GitHub Logo](/images/5.Producers.png)
+
+![GitHub Logo](/images/6.Producers-Acknowledgment.png)
+
+![GitHub Logo](/images/7.Producers-MessageKeys.png)
+
+![GitHub Logo](/images/8.Consumers.png)
+
+![GitHub Logo](/images/9.Consumers-Delivery-Semantics.png)
+
+![GitHub Logo](/images/10.Consumers-Groups.png)
+
+![GitHub Logo](/images/11.Consumers-Offsets.png)
+
+![GitHub Logo](/images/12.Kafka-Concepts.png)
+
+
+
+
+
+
