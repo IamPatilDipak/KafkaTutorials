@@ -20,16 +20,16 @@
 
 # Command Line Interface (CLI)
 
-> **Start Zookeeper and Kafka**
+#### Start Zookeeper and Kafka
 
 > zookeeper-server-start.bat config\zookeeper.properties
 > kafka-server-start.bat config\server.properties
 
-> **Create Topic**
+#### Create Topic**
 
-> kafka-topics --zookeeper 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replication-factor 1
+*kafka-topics --zookeeper 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replication-factor 1*
 
-> **List out topics**
+#### List out topics
 
 > kafka-topics --zookeeper localhost:2181 --list
 
