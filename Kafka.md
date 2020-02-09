@@ -10,14 +10,14 @@
 
 **For Example** -
 
-> **Netflix** uses kafka to apply recommendations in real time while you are watching TV shows.
+* **Netflix** uses kafka to apply recommendations in real time while you are watching TV shows.
 
-> **Uber** uses kafka to gather user, taxi and trip data in real time to compute and forecast demand and compute surge pricing in real time.
+* **Uber** uses kafka to gather user, taxi and trip data in real time to compute and forecast demand and compute surge pricing in real time.
 
-> **LinkedIn** uses kafka to prevent spam, collect user interactions to make better connection recommendations in real time. 
+* **LinkedIn** uses kafka to prevent spam, collect user interactions to make better connection recommendations in real time. 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 # Command Line Interface (CLI)
 
